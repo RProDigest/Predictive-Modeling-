@@ -68,11 +68,11 @@ The script will:
 The ROC curve shows that the tuned XGBoost model separates good and bad credit risks effectively. With an AUC of **0.774**, the model performs better than random guessing (AUC = 0.5). The curve stays above the diagonal baseline, confirming a good trade-off between true positive and false positive rates. This makes the model useful for ranking borrowers by risk and identifying likely defaulters.  
 
 **Figure 2. ROC curve for XGBoost classifier on the German Credit dataset (AUC = 0.774).** The solid blue line represents the model’s performance, while the dashed orange line indicates a random classifier baseline (Author’s own, 2025).  
-
+![ROC Curve](figures/roc_curve.png)
 The Precision–Recall curve highlights performance for the defaulter class. The average precision of **0.632** is well above the baseline of 0.32, which reflects the share of defaulters in the dataset. The curve shows that the model captures many defaulters while keeping precision above the baseline, confirming its strength in handling class imbalance.  
 
 **Figure 3. Precision–Recall curve for XGBoost classifier on the German Credit dataset (AP = 0.632).** The solid blue line represents the model’s precision–recall trade-off across thresholds, while the dashed orange line indicates the baseline precision, equal to the prevalence of defaulters (32%) (Author’s own, 2025).  
-
+![Precision–Recall Curve](figures/pr_curve.png)
 ---
 
 ## 📖 Reference
