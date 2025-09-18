@@ -73,6 +73,7 @@ The Precision–Recall curve highlights performance for the defaulter class. The
 
 **Figure 3. Precision–Recall curve for XGBoost classifier on the German Credit dataset (AP = 0.632).** The solid blue line represents the model’s precision–recall trade-off across thresholds, while the dashed orange line indicates the baseline precision, equal to the prevalence of defaulters (32%) (Author’s own, 2025).  
 ![Precision–Recall Curve](figures/pr_curve.png)
+
 ---
 
 ## 📖 Reference
